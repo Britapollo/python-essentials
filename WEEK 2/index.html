@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Week 2 - Enhanced HTML Elements</title>
+        </head>
+        <body>
+            <h2>Definition Lists</h2>
+            <dl>
+                <dt>Backend</dt>
+                <dd>A 'server' software that users do not interact with directly and where application logic resides.</dd>
+                <dt>Frontend</dt>
+                <dd>The presentation layer of software where users interact with.</dd>
+            </dl>
+            <h2>Nested Lists</h2>
+            <ul>
+                <li>Fruits
+                    <ol type="a">
+                        <li>Apple
+                            <ul>
+                                <li>Red Apple</li>
+                                <li>Green Apple</li>
+                            </ul>
+                        </li>
+                        <li>Banana</li>
+                        <li>Cherry</li>
+                    </ol>
+                </li>
+                <li>Vegetables
+                    <ol type="i">
+                        <li>Carrot</li>
+                        <li>Broccoli</li>
+                        <li>Spinach</li>
+                    </ol>
+                </li>
+            </ul>
+            <h2>Images</h2>
+            <img src="https://images.pexels.com/photos/32822357/pexels-photo-32822357.jpeg" alt="Picture of a horse." width="300" height="250">
+            <h2>Video</h2>
+            <video controls width="350" height="200">
+                <source src="https://videos.pexels.com/video-files/3987730/3987730-hd_1920_1080_24fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h2>Audio</h2>
+            <audio>
+                <source> src= "c:\Users\APOLLO\Downloads\dj-tophaz-x-dj-festa-top-tier-vibez-o-clock-pt-1-128-ytshorts.savetube.me.mp3" type="audio/mpeg">
+            </audio>
+            <h2>Tables</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Fruit</th>
+                        <th>Color</th>
+                        <th>Price per kg</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple</td>
+                        <td>Red</td>
+                        <td>$3.00</td>
+                    </tr>
+                </tbody>
+                </table>
+            <h2> Forms</h2>
+            <form action = "location data is sent" method="how the data is transmitted" enctype="multipart/form-data ">
+                <label for="name">Name:</label>
+                <input type="name" id="name" name="name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label for="profile">Profile Picture:</label>
+                <input type="file" id="profile" name="profile">
+                <br><br>
+                <label for=""bio">Bio:</label>
+                <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+                <br><br>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="">--Select Country--</option>
+                    <option value="usa">United States</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>     
+        </body>
+    </html>
